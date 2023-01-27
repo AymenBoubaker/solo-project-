@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: black;
+}
+.container{
+    font-family: "Arial", Helvetica, sans-serif;
+    padding: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 150px;
+    white-space: nowrap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.content.disable{
+    cursor: no-drop;
+  }
+  .content .column{
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    width: calc(100% / 3 - 5px);
+
+  }
+  .content.disable .column{
+    opacity: 0.6;
+    pointer-events: none;
+  }

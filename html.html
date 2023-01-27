@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Digital Clock</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <span id="hours">00</span>
+    <span>:</span>
+    <span id="minutes">00</span>
+    <span>:</span>
+    <span id="seconds">00</span>
+    <span id="session">AM</span>
+  </div>
+  <div class="content">
+    <div class="column">
+      <select id="hr">
+        <option value="Hour"  hidden>Hour</option>
+        <option value="Hour" >1</option>
+        <option value="Hour" >2</option>
+        <option value="Hour" >3</option>
+        <option value="Hour" >4</option>
+        <option value="Hour" >5</option>
+        <option value="Hour" >6</option>
+        <option value="Hour" >7</option>
+        <option value="Hour" >8</option>
+        <option value="Hour" >9</option>
+        <option value="Hour" >10</option>
+        <option value="Hour" >11</option>
+        <option value="Hour" >12</option>
+      </select>
+    </div>
+    <div class="column">
+      <select id="minutes1">
+        <option value="Minute" selected disabled hidden>Minute</option>
+      </select>
+    </div>
+    <div class="column">
+
+    </div>
+  </div>
+  <button id="felsa">Set Alarm</button>
+  <audio controls autoplay id="soundalarm">
+    <source id="sout" src="alarm sound/GOOD MORNING RINGTONE 10 MIN.mp3 ">
+    
+  </audio>
+
+  </div>
+  
+  <script src="js.js" defer></script>
+</body>
+
+</html>
